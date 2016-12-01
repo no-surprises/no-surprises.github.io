@@ -1,0 +1,27 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	font-family: TymaGaramont-Regular;
+	line-height: normal;
+	font-weight: normal;
+	font-size: 18px;
+	letter-spacing: .4px;
+	background-color: #fefefe;
+	color: #020202;
+}
+
+div {
+	margin: 0 auto;
+	margin-top: 75px;
+	width: 80%;
+	text-align: center;
+}
+
+.dots {
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 50;
+}
