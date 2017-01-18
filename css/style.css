@@ -12,6 +12,14 @@ html, body {
 	color: #020202;
 }
 
+a {
+	color: #020202;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D94409;
+}
 
 .header {
 	width: 80%;
