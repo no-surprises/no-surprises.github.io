@@ -3,7 +3,7 @@ html, body {
 	padding: 0;
 	border: 0;
 	width: 100%;
-	font-family: Arial;
+	font-family: 'Inconsolata', monospace;
 	line-height: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -27,65 +27,9 @@ html, body {
     }
 }
 
-a {
-	color: #020202;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #D94409;
-}
-
-.header {
-	width: 80%;
-	height: 45px;
-	background-color: #020202;
-}
-
-.title {
-	width: 60%;
-	margin: 0 auto;
-	margin-top: 50px;
-	padding: 15px;
-	border: 1px solid #000;
-	font-family: TymaGaramont-Regular;
-	font-size: 24px;
-	text-align: center;
+.nsTitle {
+	font-family: Maria Pro;
+	color: #1E2226;
+	font-size: 36px;
 	letter-spacing: .8px;
-	line-height: 30px;
-}
-
-.title p {
-	margin: 0;
-}
-
-.submit {
-	margin-top: 75px;
-	text-align: center;
-}
-
-.submit p {
-	display: inline-block;
-	margin: 0 auto;
-	font-family: helvetica;
-	font-weight: bold;
-	font-size: 14px;
-	letter-spacing: 1.8px;
-	padding: 10px;
-	border: 1px solid;
-}
-
-
-.footer {
-	margin: 0 auto;
-	margin-top: 15px;
-	width: 80%;
-	text-align: center;
-}
-
-.dots {
-	display: block;
-	margin: 0 auto;
-	margin-top: 75px;
-	width: 50;
 }

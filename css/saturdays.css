@@ -3,13 +3,13 @@ html, body {
 	padding: 0;
 	border: 0;
 	width: 100%;
-	font-family: Arial;
+	font-family: 'Inconsolata', monospace;
 	line-height: normal;
 	font-weight: normal;
 	font-size: 14px;
 	letter-spacing: .4px;
 	background-color: #fefefe;
-	color: #020202;
+	color: #1E2226;
 }
 
 @font-face {
@@ -27,65 +27,68 @@ html, body {
     }
 }
 
-a {
-	color: #020202;
-	text-decoration: none;
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
 }
 
-a:hover {
-	color: #D94409;
+.mainNav {
+	width: 100%;
+	height: 25px;
+	margin-right: 25px;
 }
 
-.header {
-	width: 80%;
-	height: 45px;
-	background-color: #020202;
+ul {
+	list-style: none;
+	float: right;
+	font-family: Maria Pro;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.cf {
+	float: none;
+}
+
+.nsTitle {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+	font-family: TymaGaramont-Regular;
+	font-size: 24px;
+	letter-spacing: 1.8px;
+	color: #1E2226;
+	padding-bottom: 10px;
+}
+
+.circle {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #1E2226;
 }
 
 .title {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 25px;
 	padding: 15px;
-	border: 1px solid #000;
-	font-family: TymaGaramont-Regular;
-	font-size: 24px;
+	border: 1px solid #F7F7F7;
+	font-family: Maria Pro;
+	font-size: 30px;
 	text-align: center;
 	letter-spacing: .8px;
-	line-height: 30px;
+	line-height: 36px;
 }
 
 .title p {
 	margin: 0;
 }
 
-.submit {
-	margin-top: 75px;
-	text-align: center;
-}
 
-.submit p {
-	display: inline-block;
-	margin: 0 auto;
-	font-family: helvetica;
-	font-weight: bold;
-	font-size: 14px;
-	letter-spacing: 1.8px;
-	padding: 10px;
-	border: 1px solid;
-}
-
-
-.footer {
-	margin: 0 auto;
-	margin-top: 15px;
-	width: 80%;
-	text-align: center;
-}
-
-.dots {
-	display: block;
-	margin: 0 auto;
-	margin-top: 75px;
-	width: 50;
-}
